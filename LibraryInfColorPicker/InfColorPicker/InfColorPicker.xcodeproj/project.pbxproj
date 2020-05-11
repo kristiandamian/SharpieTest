@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659A415F2469A204009EC752 /* InfColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A415E2469A204009EC752 /* InfColorPicker.m */; };
+		659A41602469A204009EC752 /* InfColorPicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 659A415D2469A204009EC752 /* InfColorPicker.h */; };
+		659A416D2469A2B3009EC752 /* InfColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A41662469A2B3009EC752 /* InfColorPickerController.m */; };
+		659A416E2469A2B3009EC752 /* InfColorBarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A41672469A2B3009EC752 /* InfColorBarPicker.m */; };
+		659A416F2469A2B3009EC752 /* InfColorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A416C2469A2B3009EC752 /* InfColorIndicatorView.m */; };
+		659A41782469A2BE009EC752 /* InfHSBSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A41702469A2BE009EC752 /* InfHSBSupport.m */; };
+		659A41792469A2BE009EC752 /* InfColorSquarePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A41712469A2BE009EC752 /* InfColorSquarePicker.m */; };
+		659A417A2469A2BE009EC752 /* InfSourceColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A41732469A2BE009EC752 /* InfSourceColorView.m */; };
+		659A417B2469A2BE009EC752 /* InfColorPickerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A41772469A2BE009EC752 /* InfColorPickerNavigationController.m */; };
+		659A417E2469A300009EC752 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A417D2469A300009EC752 /* Foundation.framework */; };
+		659A41802469A316009EC752 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A417F2469A316009EC752 /* UIKit.framework */; };
+		659A41822469A321009EC752 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A41812469A321009EC752 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		659A41582469A204009EC752 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				659A41602469A204009EC752 /* InfColorPicker.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		659A415A2469A204009EC752 /* libInfColorPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInfColorPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		659A415D2469A204009EC752 /* InfColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfColorPicker.h; sourceTree = "<group>"; };
+		659A415E2469A204009EC752 /* InfColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfColorPicker.m; sourceTree = "<group>"; };
+		659A41662469A2B3009EC752 /* InfColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorPickerController.m; sourceTree = "<group>"; };
+		659A41672469A2B3009EC752 /* InfColorBarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorBarPicker.m; sourceTree = "<group>"; };
+		659A41682469A2B3009EC752 /* InfColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorPickerController.h; sourceTree = "<group>"; };
+		659A41692469A2B3009EC752 /* InfColorBarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorBarPicker.h; sourceTree = "<group>"; };
+		659A416A2469A2B3009EC752 /* InfColorPickerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorPickerNavigationController.h; sourceTree = "<group>"; };
+		659A416B2469A2B3009EC752 /* InfColorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorIndicatorView.h; sourceTree = "<group>"; };
+		659A416C2469A2B3009EC752 /* InfColorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorIndicatorView.m; sourceTree = "<group>"; };
+		659A41702469A2BE009EC752 /* InfHSBSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfHSBSupport.m; sourceTree = "<group>"; };
+		659A41712469A2BE009EC752 /* InfColorSquarePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorSquarePicker.m; sourceTree = "<group>"; };
+		659A41722469A2BE009EC752 /* InfHSBSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfHSBSupport.h; sourceTree = "<group>"; };
+		659A41732469A2BE009EC752 /* InfSourceColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfSourceColorView.m; sourceTree = "<group>"; };
+		659A41742469A2BE009EC752 /* InfColorPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfColorPickerView.xib; sourceTree = "<group>"; };
+		659A41752469A2BE009EC752 /* InfColorSquarePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorSquarePicker.h; sourceTree = "<group>"; };
+		659A41762469A2BE009EC752 /* InfSourceColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfSourceColorView.h; sourceTree = "<group>"; };
+		659A41772469A2BE009EC752 /* InfColorPickerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfColorPickerNavigationController.m; sourceTree = "<group>"; };
+		659A417D2469A300009EC752 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		659A417F2469A316009EC752 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		659A41812469A321009EC752 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659A41572469A204009EC752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659A41822469A321009EC752 /* CoreGraphics.framework in Frameworks */,
+				659A41802469A316009EC752 /* UIKit.framework in Frameworks */,
+				659A417E2469A300009EC752 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659A41512469A204009EC752 = {
+			isa = PBXGroup;
+			children = (
+				659A415C2469A204009EC752 /* InfColorPicker */,
+				659A415B2469A204009EC752 /* Products */,
+				659A417C2469A300009EC752 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		659A415B2469A204009EC752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659A415A2469A204009EC752 /* libInfColorPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659A415C2469A204009EC752 /* InfColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				659A41772469A2BE009EC752 /* InfColorPickerNavigationController.m */,
+				659A41742469A2BE009EC752 /* InfColorPickerView.xib */,
+				659A41752469A2BE009EC752 /* InfColorSquarePicker.h */,
+				659A41712469A2BE009EC752 /* InfColorSquarePicker.m */,
+				659A41722469A2BE009EC752 /* InfHSBSupport.h */,
+				659A41702469A2BE009EC752 /* InfHSBSupport.m */,
+				659A41762469A2BE009EC752 /* InfSourceColorView.h */,
+				659A41732469A2BE009EC752 /* InfSourceColorView.m */,
+				659A41692469A2B3009EC752 /* InfColorBarPicker.h */,
+				659A41672469A2B3009EC752 /* InfColorBarPicker.m */,
+				659A416B2469A2B3009EC752 /* InfColorIndicatorView.h */,
+				659A416C2469A2B3009EC752 /* InfColorIndicatorView.m */,
+				659A41682469A2B3009EC752 /* InfColorPickerController.h */,
+				659A41662469A2B3009EC752 /* InfColorPickerController.m */,
+				659A416A2469A2B3009EC752 /* InfColorPickerNavigationController.h */,
+				659A415D2469A204009EC752 /* InfColorPicker.h */,
+				659A415E2469A204009EC752 /* InfColorPicker.m */,
+			);
+			path = InfColorPicker;
+			sourceTree = "<group>";
+		};
+		659A417C2469A300009EC752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659A41812469A321009EC752 /* CoreGraphics.framework */,
+				659A417F2469A316009EC752 /* UIKit.framework */,
+				659A417D2469A300009EC752 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659A41592469A204009EC752 /* InfColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659A41632469A204009EC752 /* Build configuration list for PBXNativeTarget "InfColorPicker" */;
+			buildPhases = (
+				659A41562469A204009EC752 /* Sources */,
+				659A41572469A204009EC752 /* Frameworks */,
+				659A41582469A204009EC752 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfColorPicker;
+			productName = InfColorPicker;
+			productReference = 659A415A2469A204009EC752 /* libInfColorPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659A41522469A204009EC752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = golem;
+				TargetAttributes = {
+					659A41592469A204009EC752 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 659A41552469A204009EC752 /* Build configuration list for PBXProject "InfColorPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659A41512469A204009EC752;
+			productRefGroup = 659A415B2469A204009EC752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659A41592469A204009EC752 /* InfColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659A41562469A204009EC752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659A41782469A2BE009EC752 /* InfHSBSupport.m in Sources */,
+				659A417A2469A2BE009EC752 /* InfSourceColorView.m in Sources */,
+				659A415F2469A204009EC752 /* InfColorPicker.m in Sources */,
+				659A416E2469A2B3009EC752 /* InfColorBarPicker.m in Sources */,
+				659A416F2469A2B3009EC752 /* InfColorIndicatorView.m in Sources */,
+				659A417B2469A2BE009EC752 /* InfColorPickerNavigationController.m in Sources */,
+				659A41792469A2BE009EC752 /* InfColorSquarePicker.m in Sources */,
+				659A416D2469A2B3009EC752 /* InfColorPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		659A41612469A204009EC752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		659A41622469A204009EC752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659A41642469A204009EC752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y48H37SHCE;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		659A41652469A204009EC752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y48H37SHCE;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659A41552469A204009EC752 /* Build configuration list for PBXProject "InfColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659A41612469A204009EC752 /* Debug */,
+				659A41622469A204009EC752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659A41632469A204009EC752 /* Build configuration list for PBXNativeTarget "InfColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659A41642469A204009EC752 /* Debug */,
+				659A41652469A204009EC752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659A41522469A204009EC752 /* Project object */;
+}
